@@ -4,7 +4,7 @@ import { Navigation } from './Navigation'
 export const NavBar = () => {
   return (
     <>
-      <div className='nav-bar container-md d-flex justify-content-center'> <h1>Capsicum y Especias</h1> </div>
+      <div className='nav-bar'> <h1>Capsicum & Especias</h1> </div>
       <Navigation/>
     </>
     )

@@ -3,51 +3,135 @@ html {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    font-family: germania-one, serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .nav-bar {
-    height: 6vh;
+    
+    width: 100vw;
     align-items: center;
     background-color: #4C3A51;
-    color: #E7AB79;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    
 }
     
 
-/* .navigation {
-    padding-top: 5px;
-    padding-bottom: 3px;
-    width: 100vw;
-    height: 6.5vh;
+.navigation {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 7vh;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #67447e;
-
+    background-color: #85586F;
+    border-bottom: black 2px solid;
 }
 
-.navigation:hover {
- cursor: pointer;
-} */
-
-.nav{
-    background-color: #4C3A51;
-}
-
-.nav a{
+.navigation a{
     color: white;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 76px;
+    justify-content: center;
+    border-left: black 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
 
 }
 
-.nav-item a:hover{
-    color: #E7AB79;
+.navigation a:hover{
+    color: #F73D93;
+}
+
+.navigation li {
+    height: 100%;
+    width: fit-content;;
 
 }
 
 
 
+.info {
+    display: flex;
+    background-color: #85586F;
+    color: white;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 16px;
+
+
+}
+
+.info p {
+    width: 80vw;
+    justify-content: center;
+
+}
+
+.info img {
+    height: 25vh;
+    width: 70vw;
+    border-radius: 10px;
+    border: black 2px solid;
+    margin-bottom: 10px;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;    
+}
+
+.face {
+    border-radius: 8px;
+    background-color: #4267B2;
+}
+
+.insta {
+    background-color: #E1306C;
+    border-radius: 10px;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 9vh;
+    background-color: #4C3A51;
+    
+}
+
+.footer div{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.footer p {
+    font-size: 11px;
+    padding-left: 12px;
+    padding-top: 5px;
+    color: white;
+}
+
+.products {
+    padding-left: 10px;
+}
+
+.services {
+    padding-left: 10px;
+    margin-left: 10px;
+}

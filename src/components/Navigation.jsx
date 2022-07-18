@@ -2,18 +2,18 @@ import React from 'react'
 
 export const Navigation = () => {
   return (
-    <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">info</a>
+    <ul className="navigation">
+        <li className="">
+          <a className="" aria-current="page" href="#">info</a>
+        </li>
+        <li className="">
+          <a className="" href="#">Inicio</a>
+        </li>
+        <li className="">
+          <a className="products" href="#">Productos</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Inicio</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Productos</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href='#'>Servicios</a>
+          <a className="services" href='#'>Servicios</a>
         </li>
       </ul>
   )
