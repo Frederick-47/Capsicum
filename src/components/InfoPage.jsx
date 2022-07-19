@@ -3,7 +3,7 @@ import image from '../sources/especias.jpg'
 
 export const InfoPage = () => {
   return (
-    <div className="info">
+    <div className="container">
         <p>Capsicum y Especias es una empresa mexicana dedicada a la distribución de una gran variedad de productos deshidratados.
 
  
